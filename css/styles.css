@@ -306,6 +306,12 @@ img {
 	background-repeat: no-repeat;
 	background-position: 50% 10%;
 	background-size: 15rem;
+	transition-property: transform background-size;
+	transition-duration: .3s;
+}
+.modelo:hover {
+	transform: scale(1.1);
+	background-size: 30rem;
 }
 @media(min-width: 400px) {
 	.modelo {
@@ -316,7 +322,6 @@ img {
 		flex-direction: column;
 		justify-content: center;
 		background-position: 90% center;
-		background-size: 15rem;
 	}
 	
 }
